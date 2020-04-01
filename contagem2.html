@@ -1,0 +1,31 @@
+<html>
+  <body>
+    <h1 class=heading>Contagem para férias!</h1>
+    <p id=ferias></p>
+    <p id=cont></p>
+	
+	<script>
+	var cont = document.getElementById("cont")
+	var vacation = document.getElementById("ferias")
+	//var contador = 60
+	var myVar = setInterval(contagem, 1000);
+	
+	function contagem(){
+	  
+	  const dataAtual = new Date();
+	  const dataFerias = new Date("2020-05-18T00:00-04:00");
+
+	  const diferença = Math.abs(dataFerias.getTime() - dataAtual.getTime());
+	  const dias = Math.ceil(diferença / (1000 * 60 * 60 * 24));
+
+
+	  ferias.classList.add("ferias");
+
+	  vacation.innerHTML = "Faltam " + dias + " dias para suas férias";
+	  //cont.innerHTML = contador
+	  //contador -= 1
+	}
+	
+	</script>
+  </body>
+</html>

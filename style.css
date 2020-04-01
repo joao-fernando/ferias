@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  color: #FFFFE0;
+  font-family: 'Raleway', sans-serif;
+  background: #FAEBD7 url('./img/background_pink.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.container_total {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+
