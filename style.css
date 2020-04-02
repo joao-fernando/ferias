@@ -7,7 +7,7 @@
 body {
   color: #FFFFE0;
   font-family: 'Raleway', sans-serif;
-  background: #FAEBD7 url('./img/background_pink.jpg') no-repeat center center/cover;
+  background:#FAEBD7 url('./img/background_pink.jpg') no-repeat center center/cover;
   min-height: 100vh;
   overflow: hidden;
   display: flex;
@@ -22,6 +22,5 @@ body {
 	align-items: center;
 	justify-content: center;
 	margin: auto;
+	text-shadow: 0 1px 0 black;
 }
-
-
